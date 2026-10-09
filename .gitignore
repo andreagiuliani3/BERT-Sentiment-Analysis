@@ -1,0 +1,21 @@
+# Dataset e dati raw
+*.csv
+*.tsv
+*.json
+
+# Modelli salvati di PyTorch o log di tensorboard (se presenti)
+bert_model/
+*.pt
+*.pth
+runs/
+
+# Ambienti virtuali
+venv/
+env/
+.env
+
+# Cache di Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
